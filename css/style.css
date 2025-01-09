@@ -388,12 +388,6 @@ form label:hover {
   border-radius: 0.5rem;
 }
 
-.packages .box-container .box:hover {
-background-image: url(../images/home1.jpg) !important;
-  background-size: cover !important;
-  background-position: right !important;
-}
-
 .packages .box-container .box:hover .content>* {
   color: #fff;
 }
@@ -628,6 +622,7 @@ background-image: url(../images/home1.jpg) !important;
     padding: 10px;
   }
 }
+
 .zoom-in-zoom-out {
   animation: zoom-in-zoom-out 2s ease-out infinite;
 }
@@ -636,10 +631,49 @@ background-image: url(../images/home1.jpg) !important;
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
+}
+
+.manali-package:hover {
+  background-image: url(../images/img-1.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.goa-package:hover {
+  background-image: url(../images/img-2.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.delhi-package:hover {
+  background-image: url(../images/img-3.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.jaipur-package:hover {
+  background-image: url(../images/img-4.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.kerla-package:hover {
+  background-image: url(../images/img-5.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+
+}
+
+.darjeeling-package:hover {
+  background-image: url(../images/img-6.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
